@@ -11,7 +11,7 @@ jQuery(document).ready(function() {
 const calculate = gpa => {
 	if(!gpa) return "Please Your Cgpa";
 	if(gpa > 10){
-		return "CGPA CAN BE NOT GREATER THAN 10";
+		return "CGPA CAN NOT BE GREATER THAN 10 😢";
 	}else{
 		return parseFloat(gpa - 0.75) * 10;
 	}
