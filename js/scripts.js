@@ -13,6 +13,6 @@ const calculate = gpa => {
 	if(gpa > 10){
 		return "CGPA CAN NOT BE GREATER THAN 10 😢";
 	}else{
-		return (parseFloat(gpa) - 0.75) * 10;
+		return `${(parseFloat(gpa) - 0.75) * 10} %`;
 	}
 }
